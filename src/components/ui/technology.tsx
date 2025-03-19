@@ -8,10 +8,10 @@ const item = {
     opacity: 1,
   },
 };
-function Technology({ src, alt }: TechnologyIcon) {
+function Technology({ src, alt, title }: TechnologyIcon) {
   return (
     <motion.li variants={item} className="about-skill" key={src}>
-      <img src={src} alt={alt} className="technology-icon" />
+      <img src={src} alt={alt} className="technology-icon" title={title} />
     </motion.li>
   );
 }
