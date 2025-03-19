@@ -3,11 +3,13 @@ import { ReactNode } from "react";
 export interface TechnologyIcon {
   src: string;
   alt: string;
+  title: string;
 }
 
 export interface ExperienceType {
   role: string;
   companyName: string;
+  duration: string;
   description: string;
 }
 
