@@ -23,8 +23,13 @@ function About() {
         >
           <div className="about-bar"></div>
           <p className="about-text">
-            I am a software engineer with a passion for web development. I have
-            experience in building web applications using modern technologies.
+            I&apos;m Daniel Ogunleye, an Android engineer crafting user-friendly
+            mobile applications across diverse industries like{" "}
+            <span>fashion, energy and banking</span>. I specialized in
+            delivering solutions with modern android best practices, clean
+            architectures and intuitive design principles. I&apos;m passionate
+            about team collaboration to transform ideas to seamless user
+            experiences.
           </p>
         </motion.div>
         <div className="about-skills">
@@ -38,18 +43,23 @@ function About() {
             className="about-skills-list"
           >
             {technologies.map((tech) => (
-              <Technology src={tech.src} alt={tech.alt} key={tech.alt} />
+              <Technology
+                src={tech.src}
+                alt={tech.alt}
+                key={tech.alt}
+                title={tech.title}
+              />
             ))}
           </motion.ul>
         </div>
-        <div className="about-skills">
+        {/* <div className="about-skills">
           <h3>My Hobbies .</h3>
           <ul className="about-skills-list">
-            {technologies.map((tech) => (
-              <Technology src={tech.src} alt={tech.alt} />
-            ))}
+            <li>Reading</li>
+            <li>Traveling</li>
+            <li>Music</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </section>
   );
