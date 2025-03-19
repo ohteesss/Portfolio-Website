@@ -32,6 +32,7 @@ function Experience() {
               role={experience.role}
               companyName={experience.companyName}
               description={experience.description}
+              duration={experience.duration}
               index={i + 1}
               key={i}
             />
