@@ -4,85 +4,89 @@ import {
   SocialLinkType,
   TechnologyIcon,
 } from "./app.interface";
+import { Github } from "./components/icons/github";
 import LinkedIn from "./components/icons/linkedin";
 
 export const technologies: TechnologyIcon[] = [
   {
     src: "svg/kotlin.svg",
-    alt: "KOTLIN",
+    alt: "KOTLIN icon",
+    title: "Kotlin",
   },
   {
-    src: "svg/kotlin.svg",
-    alt: "KOTLIN",
+    src: "svg/jetpack-compose.svg",
+    alt: "Jetpack Compose icon",
+    title: "Jetpack Compose",
   },
   {
-    src: "svg/kotlin.svg",
-    alt: "KOTLIN",
+    src: "svg/android-icon.svg",
+    alt: "Android icon",
+    title: "Android",
   },
   {
-    src: "svg/kotlin.svg",
-    alt: "KOTLIN",
-  },
-  {
-    src: "svg/kotlin.svg",
-    alt: "KOTLIN",
+    src: "svg/java-icon.svg",
+    alt: "Java icon",
+    title: "Java",
   },
 ];
 
 export const experiences: ExperienceType[] = [
   {
-    role: "Backend Developer",
-    companyName: "Google",
-    description: "I used backend technologies like node, express and mongo db",
+    role: "Android Engineer London, UK",
+    companyName: "Mindera ",
+    duration: "Sept 2023 - present",
+    description:
+      "Maintained client (YNAP) existing 3 luxury fashion brand apps while collaborating within a team of  android engineers. I used technologies like  Kotlin, Android, XML, Dagger hilt, Coroutine, Git/Github, Firebase, Jira ",
   },
   {
-    role: "Backend Developer",
-    companyName: "Google",
-    description: "I used backend technologies like node, express and mongo db",
+    role: " Mobile Engineer - Android -  Berlin, Germany",
+    companyName: "Engie Energy Access",
+    duration: "Nov 2021 - Sept 2023 ",
+    description:
+      "Managed and added new features on Mysolgo and Mysolfix apps used by agent in the field. I used technologies like Kotlin, Coroutine, Koin, Android XML, Jira, Gitlab",
   },
   {
-    role: "Backend Developer",
-    companyName: "Google",
-    description: "I used backend technologies like node, express and mongo db",
-  },
-  {
-    role: "Backend Developer",
-    companyName: "Google",
-    description: "I used backend technologies like node, express and mongo db",
+    role: "Android Engineer - Lekki, Lagos",
+    companyName: "Access Bank Plc",
+    duration: "March 2019 - Oct 2021",
+    description:
+      "Worked on an agency banking application to onboard new customers. I used technologies like Java, Kotlin, RxJava, Dagger2, Android XML, Jira, Azure",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    title: "Project 1",
+    title: "NET-A-PORTER",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, odio et tincidunt fermentum, metus sapien ornare nunc, nec tempus tortor lacus a nulla.",
+      "NAP is one of the luxury fashion application flavour targeted toward both gender",
     githubLink: "https://github.com",
-    liveLink: "https://github.com",
+    liveLink:
+      "https://play.google.com/store/search?q=net-a-porter&c=apps&hl=en_US",
     img: "https://via.placeholder.com/300",
   },
   {
-    title: "Project 2",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, odio et tincidunt fermentum, metus sapien ornare nunc, nec tempus tortor lacus a nulla.",
-    githubLink: "https://github.com",
-    liveLink: "https://github.com",
+    title: "Mr Porter: MRP",
+    description: "Luxury fashion application targeted toward male gender",
+    githubLink: "http://github.com/ayodeji97/",
+    liveLink: "https://play.google.com/store/apps/details?id=com.mrp",
     img: "https://via.placeholder.com/300",
   },
   {
-    title: "Project 3",
+    title: "MySolgo",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, odio et tincidunt fermentum, metus sapien ornare nunc, nec tempus tortor lacus a nulla.",
-    githubLink: "https://github.com",
-    liveLink: "https://github.com",
+      "Agency application used by Engie agents to make sales and keep track on customer’s journey.",
+    githubLink: "http://github.com/ayodeji97/",
+    liveLink:
+      "https://play.google.com/store/apps/details?id=com.engie_energyaccess.salesapp&hl=en&gl=US ",
     img: "https://via.placeholder.com/300",
   },
   {
-    title: "Project 3",
+    title: "MySolfix",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, odio et tincidunt fermentum, metus sapien ornare nunc, nec tempus tortor lacus a nulla.",
-    githubLink: "https://github.com",
-    liveLink: "https://github.com",
+      "Technician application used by Engie technicians to accept product installation and sales completion",
+    githubLink: "http://github.com/ayodeji97/",
+    liveLink:
+      "https://play.google.com/store/apps/details?id=com.engie_energyaccess.technicianapp ",
     img: "https://via.placeholder.com/300",
   },
 ];
@@ -93,13 +97,13 @@ export const socialLinks: SocialLinkType[] = [
     icon: LinkedIn(),
   },
   {
-    link: "",
-    icon: LinkedIn(),
+    link: "http://github.com/ayodeji97/",
+    icon: Github(),
   },
-  {
-    link: "",
-    icon: LinkedIn(),
-  },
+  // {
+  //   link: "",
+  //   icon: LinkedIn(),
+  // },
 ];
 
 // ANIMATION CONSTANTS
