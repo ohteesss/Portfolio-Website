@@ -211,7 +211,7 @@ function Contact() {
               <div className="email-icon">
                 <TfiEmail />
               </div>
-              <p>oluwatobiojo2911@gmail.com</p>
+              <p>danielayodeji97@gmail.com</p>
             </div>
             <div className="social--links" id="social--links">
               {socialLinks.map((link, index) => (
