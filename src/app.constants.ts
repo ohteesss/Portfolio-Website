@@ -93,11 +93,11 @@ export const projects: ProjectType[] = [
 
 export const socialLinks: SocialLinkType[] = [
   {
-    link: "linkedin.com",
+    link: "https://www.linkedin.com/in/daniel-ayodeji/",
     icon: LinkedIn(),
   },
   {
-    link: "http://github.com/ayodeji97/",
+    link: "https://github.com/ayodeji97/",
     icon: Github(),
   },
   // {
