@@ -10,8 +10,15 @@ function Hero() {
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">
-            {/* Hello <div className="hero-wave">👋</div> ,{" "} */}{" "}
-            <SplitText text="Hello! I'm John" />
+            {/* Hello <div className="hero-wave"></div> ,{" "} */}
+            <SplitText text="Hello! I'm Daniel" />{" "}
+            <motion.span
+              className="hero-wave"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0, transition: { delay: 2.3 } }}
+            >
+              👋
+            </motion.span>
           </h1>
           <motion.h2
             initial="hidden"
@@ -36,7 +43,7 @@ function Hero() {
             }}
             className="hero-description"
           >
-            I'm an android developer based in New York, NY.
+            I&apos;m a seasoned android engineer based in Porto.
           </motion.p>
           <motion.a
             initial="hidden"
@@ -54,7 +61,7 @@ function Hero() {
         </div>
         <div className="hero-image">
           <div className="hero-image-container">
-            <img src="https://via.placeholder.com/400" alt="John Doe" />
+            <img src="/danielogunleye.jpeg" alt="Daniel Ogunleye" />
             <div className="hero-ball"></div>
           </div>
         </div>
